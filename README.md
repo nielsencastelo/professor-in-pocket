@@ -18,7 +18,7 @@ Esses pontos estão alinhados ao objetivo e arquitetura descritos na proposta.
 
 **(B) Indexação semântica**
 - Gera embeddings com **BAAI/bge-m3** (modelo recomendado para RAG).
-- Armazena vetores no **ChromaDB** (persistente).
+- Armazena vetores no **PGVector** (persistente).
 
 **(C) Orquestração**
 - Um “Agente Classificador” (heurístico/LLM) decide a área/disciplina.
@@ -31,7 +31,7 @@ Esses pontos estão alinhados ao objetivo e arquitetura descritos na proposta.
 
 ## 3) Stack sugerida (local, notebook-friendly)
 - **Ollama** para rodar o LLM local (Phi-4) via API HTTP.
-- **ChromaDB** como vector store.
+- **PGVector** como vector store.
 - **sentence-transformers** para embeddings (bge-m3).
 - Notebook Jupyter.
 
