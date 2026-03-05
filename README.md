@@ -54,7 +54,7 @@ Esses pontos estão alinhados ao objetivo e arquitetura descritos na proposta.
 - [ ] Pergunta ambígua → pede contexto ou sugere onde procurar no material  
 - [ ] Roteamento para disciplina correta (mesmo que heurístico)
 
-## 6) Estrutura sugerida do repositório
+## 6) Estrutura
 .
 ├─ notebooks/
 │  └─ poc_professor_in_pocket_phi4_rag.ipynb
@@ -64,7 +64,7 @@ Esses pontos estão alinhados ao objetivo e arquitetura descritos na proposta.
 │        ├─ plano_ensino.pdf
 │        ├─ apostila.docx
 │        └─ slides/
-├─ chroma_db/                 # persistência do índice vetorial
+├─ pgvector/                 # persistência do índice vetorial
 └─ README.md
 
 
