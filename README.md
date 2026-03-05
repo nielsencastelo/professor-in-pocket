@@ -67,12 +67,6 @@ Esses pontos estão alinhados ao objetivo e arquitetura descritos na proposta.
 ├─ chroma_db/                 # persistência do índice vetorial
 └─ README.md
 
-## 7) Próximos passos (depois da POC)
-- Agente Classificador treinável (intents + cursos/disciplinas).
-- Multi-agentes reais por disciplina (cada um com seu índice).
-- Camada de API (FastAPI) + autenticação + logs.
-- Observabilidade: métricas de cobertura, taxa de “não sei”, feedback do aluno.
-- Guardrails: políticas de “somente material oficial”.
 
 ## Referências (docs)
 - Ollama API /chat: https://docs.ollama.com/api/chat
