@@ -64,7 +64,7 @@ Esses pontos estão alinhados ao objetivo e arquitetura descritos na proposta.
 │        ├─ plano_ensino.pdf
 │        ├─ apostila.docx
 │        └─ slides/
-├─ pgvector/                 # persistência do índice vetorial
+├─ pgvector/                # persistência do índice vetorial
 └─ README.md
 
 
